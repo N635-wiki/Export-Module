@@ -1,0 +1,14 @@
+{
+	"name": "Export Module",
+	"version": "1.0.0",
+	"author": "Wiki19300",
+	"description": "Provides a special page to export Lua modules.",
+	"type": "specialpage",
+	"manifest_version": 2,
+	"AutoloaderClasses": {
+		"MediaWiki\\Extension\\ExportModule\\SpecialExportModule": "includes/SpecialExportModule.php"
+	},
+	"SpecialPages": {
+		"ExportModule": "MediaWiki\\Extension\\ExportModule\\SpecialExportModule"
+	}
+}
