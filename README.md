@@ -1,8 +1,7 @@
 # Export-Module
 Export Module is MediaWiki extension to export lua script module namespace.
-# MediaWiki Extension: Export-Module
+# MediaWiki Extension: Export Module
 ---
-
 ## 1. Information
 * **Purpose:** Allows administrators and developers to easily export Lua script modules from a MediaWiki installation.
 * **Namespace:** Targets the `Module:` namespace where Scribunto Lua scripts are stored.
@@ -15,12 +14,12 @@ Export Module is MediaWiki extension to export lua script module namespace.
    Download the extension files into your MediaWiki `extensions/` directory.
 
 2. **Directory Naming:**
-   Ensure the folder is named `Export-Module`.
+   Ensure the folder is named `Export Module`.
 
 3. **Configure `LocalSettings.php`:**
    Add the following line to the bottom of your `LocalSettings.php` file:
    ```php
-   wfLoadExtension( 'Export-Module' );
+   wfLoadExtension( 'Export Module' );
    ```
 
 4. **Run Maintenance Scripts:**
@@ -37,13 +36,13 @@ Export Module is MediaWiki extension to export lua script module namespace.
 To clone the repository directly into your `extensions` directory:
 ```bash
 cd extensions/
-git clone https://github.com/N635-wiki/Export-Module.git
+git clone https://github.com/N635-wiki/Export Module.git
 ```
 
 ### Keeping Extension Updated
 To update the extension to the latest version via GitHub:
 ```bash
-cd extensions/Export-Module
+cd extensions/Export Module
 git pull origin main
 ```
 
